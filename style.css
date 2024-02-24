@@ -1,0 +1,45 @@
+@font-face {
+    font-family: outfit;
+    src: url("fonts/Outfit-Regular.ttf");
+}
+
+body {
+    background-color: #1F314F;
+}
+
+.card-main {
+    box-sizing: border-box;
+    margin: auto;
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 16px;
+    margin-top: 152px;
+}
+.card-inner {
+    box-sizing: border-box;
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    background-color: #1F314F;
+    padding: 64px;
+}
+.text-box {
+    width: 288px;
+    height: 129px;
+    margin-top: 24px;
+}
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: outfit;
+    color: #1F314F;
+    text-align: center;
+}
+p {
+    font-size: 15px;
+    font-family: outfit;
+    color: #7D889E;
+    text-align: center;
+}
